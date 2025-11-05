@@ -5,11 +5,11 @@ import { Message } from '../types';
 const GEMINI_MODEL = 'gemini-2.5-flash';
 
 export const getBotResponse = async (history: Message[]): Promise<string> => {
-    if (!process.env.API_KEY) {
+    if (!process.env.VITE_GEMINI_API_KEY) {
         return "Sorry, the AI service is currently unavailable. An agent will be with you shortly. [end_conversation_and_escalate]";
     }
 
-    const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+    const ai = new GoogleGenAI({ apiKey: process.env.VITE_GEMINI_API_KEY });
     
     const systemInstruction = `You are a friendly and professional customer support chatbot for KRUX Finance, a company that provides Business, Personal, and MSME loans. Your name is "KruxBot".
 
