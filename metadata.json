@@ -1,0 +1,5 @@
+{
+  "name": "KRUX Finance Dual Chatbot System",
+  "description": "A comprehensive customer support system featuring a customer-facing chatbot for loan assistance and a support executive dashboard for managing conversations, built with React, TypeScript, and Tailwind CSS.",
+  "requestFramePermissions": []
+}
