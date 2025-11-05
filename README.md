@@ -65,5 +65,4 @@ Quick replies included:
 - "Thank you for providing the details. Please allow me a moment to review your case."
 - "Is there anything else I can help you with today?"
 
-> Note: The above values are mock/test data bundled with the project for development and demo purposes. Do not use them for production.
 
