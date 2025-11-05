@@ -65,4 +65,6 @@ Quick replies included:
 - "Thank you for providing the details. Please allow me a moment to review your case."
 - "Is there anything else I can help you with today?"
 
+# .env
+VITE_GEMINI_API_KEY=your_google_gemini_api_key_here
 
