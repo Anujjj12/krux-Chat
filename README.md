@@ -1,6 +1,6 @@
 # Krux Finance Dual Chatbot System
 
-This repository contains a small React + TypeScript demo for a dual chatbot system (customer + support agent).
+This repository contains a small React + TypeScript demo for a dual chatbot system (customer + support agent). 
 
 ## Folder structure
 
